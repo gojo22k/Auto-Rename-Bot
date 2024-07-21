@@ -4,6 +4,6 @@ motor
 dnspython
 hachoir
 Pillow
-aiohttp
+aiohttp==3.9.5
 pytz
 psutil
