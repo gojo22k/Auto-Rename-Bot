@@ -83,16 +83,19 @@ async def auto_rename_files(client, message):
     if message.document:
         file_id = message.document.file_id
         file_name = message.document.file_name
+        file_size = message.document.file_size
         media_type = media_preference or "document"
         caption = message.caption or ""
     elif message.video:
         file_id = message.video.file_id
-        file_name = f"{message.video.file_name}.mp4"
+        file_name = f"{message.video.file_name or 'video'}.mp4"
+        file_size = message.video.file_size
         media_type = media_preference or "video"
         caption = message.caption or ""
     elif message.audio:
         file_id = message.audio.file_id
-        file_name = f"{message.audio.file_name}.mp3"
+        file_name = f"{message.audio.file_name or 'audio'}.mp3"
+        file_size = message.audio.file_size
         media_type = media_preference or "audio"
         caption = message.caption or ""
     else:
@@ -157,7 +160,7 @@ async def auto_rename_files(client, message):
         c_caption = await madflixbotz.get_caption(message.chat.id)
         c_thumb = await madflixbotz.get_thumbnail(message.chat.id)
 
-        caption = c_caption.format(filename=new_file_name, filesize=humanbytes(message.document.file_size), duration=convert(duration)) if c_caption else f"**{new_file_name}**"
+        caption = c_caption.format(filename=new_file_name, filesize=humanbytes(file_size), duration=convert(duration)) if c_caption else f"**{new_file_name}**"
 
         if c_thumb:
             ph_path = await client.download_media(c_thumb)
