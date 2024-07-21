@@ -1,4 +1,4 @@
-<img src="https://graph.org/file/4b306f4b15c23a8f22e58.jpg" alt="logo" target="/blank">
+<img src="https://graph.org/file/8bb6d06e2721ff8b9f56f.jpg" alt="logo" target="/blank">
 
 <h1 align="center">
  <b><a href="https://t.me/autorenamexbot" target="/blank"> Auto Rename Bot </a></>
