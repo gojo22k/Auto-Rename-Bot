@@ -25,37 +25,36 @@ class Config(object):
 class Txt(object):
     # part of text configuration
         
-    START_TXT = """Hello {} 
+    START_TXT = """Hᴇʟʟᴏ {} 
     
-➻ This Is An Advanced And Yet Powerful Rename Bot.
+➻ Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀғᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.
     
-➻ Using This Bot You Can Auto Rename Of Your Files.
+➻ Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Aᴜᴛᴏ Rᴇɴᴀᴍᴇ Oғ Yᴏᴜʀ Fɪʟᴇs.
     
-➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
+➻ Tʜɪs Bᴏᴛ Aʟsᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.
     
-➻ Use /tutorial Command To Know How To Use Me.
-    
-<b>Bot Is Made By @Madflix_Bots</b>"""
+➻ Usᴇ /tutorial Cᴏᴍᴍᴀɴᴅ Tᴏ Kɴᴏᴡ Hᴏᴡ Tᴏ Usᴇ Mᴇ.    
+<b>Bot Is Made By @aniflixClou</b>"""
     
     FILE_NAME_TXT = """<b><u>SETUP AUTO RENAME FORMAT</u></b>
 
-Use These Keywords To Setup Custom File Name
+Usᴇ Tʜᴇsᴇ Kᴇʏᴡᴏʀᴅs Tᴏ Sᴇᴛᴜᴘ Cᴜsᴛᴏᴍ Fɪʟᴇ Nᴀᴍᴇ
 
-✓ episode :- To Replace Episode Number
-✓ quality :- To Replace Video Resolution
+✓ ᴇᴘɪsᴏᴅᴇ :- Tᴏ Rᴇᴘʟᴀᴄᴇ Eᴘɪsᴏᴅᴇ Nᴜᴍʙᴇʀ
+✓ ᴏ̨ᴜᴀʟɪᴛʏ :- Tᴏ Rᴇᴘʟᴀᴄᴇ Vɪᴅᴇᴏ Rᴇsᴏʟᴜᴛɪᴏɴ
 
-<b>➻ Example :</b> <code> /autorename Naruto Shippuden S02 - EPepisode - quality  [Dual Audio] - @Madflix_Bots </code>
-
+<b>➻ Example :</b> <code> /autorename Naruto Shippuden S02 - Episode - quality  [Dual Audio] - @aniflixClou </code>
+<b>➻ Then Send the file with respective captions</code>
 <b>➻ Your Current Auto Rename Format :</b> <code>{format_template}</code> """
     
     ABOUT_TXT = f"""<b>🤖 My Name :</b> <a href='https://t.me/AutoRenameXBot'>Auto Rename Bot ⚡</a>
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Madflix_Bots'>Madflix Botz</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRobot'>Jishu Developer</a>
+<b>🚀 Server :</b> <a href='https://heroku.com'>Koyeb</a>
+<b>📢 Channel :</b> <a href='https://t.me/aniflix.clou'>Aniflix</a>
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/aniflix.clou'>Ankit</a>
     
-<b>♻️ Bot Made By :</b> @Madflix_Bots"""
+<b>♻️ Bot Made By :</b> @AniflixClou"""
 
     
     THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
@@ -72,28 +71,18 @@ Use These Keywords To Setup Custom File Name
 ⦿ /del_caption - Use This Command To Delete Your Caption"""
 
     PROGRESS_BAR = """\n
-<b>📁 Size</b> : {1} | {2}
-<b>⏳️ Done</b> : {0}%
-<b>🚀 Speed</b> : {3}/s
-<b>⏰️ ETA</b> : {4} """
+<b>📁 Sɪᴢᴇ</b> : {1} | {2}
+<b>⏳️ Dᴏɴᴇ</b> : {0}%
+<b>🚀 Sᴘᴇᴇᴅ</b> : {3}/s
+<b>⏰️ Eᴛᴀ</b> : {4} """
     
     
     DONATE_TXT = """<b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
     
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
     
-<b>🛍 UPI ID:</b> <code>madflixofficial@axl</code> """
+<b>🛍 UPI ID:</b> <code>rasanandamohapatra2014@okhdfcbank</code> """
     
     HELP_TXT = """<b>Hey</b> {}
     
 Here Is The Help For My Commands."""
-
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Developer @JishuDeveloper
-
